@@ -1,0 +1,165 @@
+.container{
+  width: 350px;
+  overflow: hidden;
+  height: 500px;
+  margin:0;
+}
+p{
+  word-wrap: break-word;
+  font-size: 200px;
+}
+.noVideoFound{
+  font-size: 20px;
+  text-align: center;
+  display: inline;
+
+}
+body{
+  padding: 0px;
+  margin: 0px;
+}
+html{
+  padding: 0px;
+  margin: 0px;
+}
+/*heading*/
+.logo{
+  width: 60px;
+  height: auto;
+  display: inline;
+}
+#title{
+  margin: 0;
+  text-align: center;
+  font-size: 55px;
+  display: inline;
+  padding:auto;
+  font-family:'Roboto', Arial, Helvetica, sans-serif ;
+  font-weight:500;
+  letter-spacing: -2px;
+}
+.heading{
+  padding: 0;
+  margin: 0 auto;
+  display: block;
+  height: 75px;
+  text-align: center;
+}
+/*controls*/
+.toolbar{
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  column-gap: 0px;
+  background-color: rgb(232, 232, 232);
+  align-items: center;
+  column-gap: 5px;
+  padding: 0 5px;
+
+
+}
+.back,.new-folder{
+  width: 40px;
+  margin: 0;
+  height: 40px;
+  margin: 0px 0px;
+
+}
+.search-bar{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-color: rgb(204, 204, 204);
+  border: none;
+  margin: 0px;
+  padding: 0;
+  width: calc(100% - 50px);
+  height: 40px;
+
+  
+
+}
+.search-bar:focus{
+  outline: none;
+}
+.search{
+  height: 50px;
+  padding: 0;
+  margin: 0 ;
+  border-width: 0;
+  align-items: center;
+
+}
+.search-button{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  border: none;
+  height: 40px;
+
+}
+/* scrollbox with bookmarks*/
+.bookmark{
+  height: 50px;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  font-size: 10px;
+  border-bottom-color: rgb(240, 240, 240);
+  border-bottom-style:solid ;
+}
+.scrollbox{
+  overflow-y: scroll;
+  margin: auto;
+  height: 375px;
+  border-radius: 5px;
+  background-color: rgb(248, 248, 248);
+  overflow-x: hidden;
+  width: 100%;
+}
+.play,.delete,.dropdown{
+  max-width: 100%;
+  max-height: 100%;
+  padding: 0px;
+  margin: 0px, 100px;
+  display: inline;
+}
+.bookmark-controls{
+  height: 40px;
+  margin: 5px 0px;
+  padding: 0px;
+}
+.timestamp,.bookmark-title{
+  font-size: 10px;
+  margin: 0px;
+}
+.bookmark-title:hover{
+  cursor: pointer;
+  display: inline;
+}
+
+.notes{
+  width: 98%;
+  display: block;
+  margin: 0;
+  height: 250px;
+  background-color: rgb(233, 233, 233);
+  border: none;
+  border-top: solid;
+}
+.save-button{
+  margin: 0;
+  width: 98%;
+  height: 50px;
+}
+.sort{
+  height: 40px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}
+
+
